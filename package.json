@@ -1,0 +1,31 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+      "lint",
+      "fix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gXiaofei/anydoor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gXiaofei/anydoor/issues"
+  },
+  "homepage": "https://github.com/gXiaofei/anydoor#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "pre-commit": "^1.2.2"
+  }
+}
